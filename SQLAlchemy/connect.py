@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 # To connect database
-DB_URL = 'postgresql+psycopg2://postgres:root@localhost/basic'
+DB_URL = 'postgresql+psycopg2://user_name:user_password@host_name/database_name'
 engine = create_engine(DB_URL)
 
 try:
