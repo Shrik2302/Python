@@ -3,7 +3,7 @@ from datetime import datetime
 from sqlalchemy import (MetaData,Table,Column,Integer,Numeric,String,
                         DateTime,ForeignKey,create_engine)
 
-engine = create_engine("postgresql+psycopg2://postgres:root@localhost/basic")
+engine = create_engine('postgresql+psycopg2://user_name:user_password@host_name/database_name')
 
 metadata = MetaData()
 
