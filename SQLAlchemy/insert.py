@@ -4,7 +4,7 @@ from sqlalchemy import (MetaData, Table, Column, Integer,String,
 
 from create_table import cookies, users, orders, line_items
 
-engine = create_engine("postgresql+psycopg2://postgres:root@localhost/basic")
+engine = create_engine('postgresql+psycopg2://user_name:user_password@host_name/database_name')
 
 # metadata = MetaData()
 connection = engine.connect()
