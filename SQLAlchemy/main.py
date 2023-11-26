@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy import Table, MetaData
 
-engine = create_engine("postgresql+psycopg2://postgres:root@localhost/basic")
+engine = create_engine('postgresql+psycopg2://user_name:user_password@host_name/database_name')
 
 try:
     connection = engine.connect()
