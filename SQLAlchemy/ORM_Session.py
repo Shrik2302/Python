@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from ORM import Cookie
-engine = create_engine("postgresql+psycopg2://postgres:root@localhost/basic", echo=True)
+engine = create_engine('postgresql+psycopg2://user_name:user_password@host_name/database_name', echo=True)
 
 Session = sessionmaker(bind=engine)
 
