@@ -2,7 +2,7 @@ from sqlalchemy import Table, Column, Integer, String, Numeric
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import create_engine
 
-DB_URL = 'postgresql+psycopg2://postgres:root@localhost/basic'
+DB_URL = 'postgresql+psycopg2://user_name:user_password@host_name/database_name'
 engine = create_engine(DB_URL)
 
 Base = declarative_base()
