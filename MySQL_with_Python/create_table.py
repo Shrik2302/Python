@@ -2,9 +2,9 @@ import mysql.connector
 from mysql.connector import errorcode
 
 mydb = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Root@123",
+        host="host_name",
+        user="username",
+        password="user_password",
     )
 
 cursor=mydb.cursor()
